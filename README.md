@@ -7,6 +7,7 @@ include :
 - mySQL
 - JWT Token
 - React Router
+- 
 ## Backend 
 ### Model package
 - BaseEntity ve Person Superclass. Person inherit BaseEntity.
@@ -30,5 +31,30 @@ include :
 - AdminController
 - AuthController
 ### exception_error package
+
+## Frontend
+### pages package
+- login.js for sing in
+- main.js first page to see
+- register.js for sing up
+### userPages package
+- product.js, seller.js, favoriteList.js and blackList.js pages for the user to use 
+### blackList package
+- add, dell button pages and is in process
+### favoriteList package
+- add, dell button pages and is in process
+### api package
+- authRequest.js page that include sing in and sing up request with fetch method
+### component package
+- Input, search, topMenu etc.
+### adminPages package
+- product, seller and user pages for admin.
+- addProduct.js and addSeller.js pages
+### adminComponent package
+- delete product, seller and user button component.
+- update product and seller button component.
+### adminRequest package
+- add, delete and update pages for send request with fetch method. 
+
 
 
