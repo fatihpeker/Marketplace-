@@ -1,4 +1,4 @@
-# Marketplace ()
+# Marketplace 
 Marketplace single page web application with Spring and React js.
 include :
 - Spring Data Jpa
@@ -7,7 +7,7 @@ include :
 - mySQL
 - JWT Token
 - React Router
-## Backend ()
+## Backend 
 ### Model package
 - BaseEntity ve Person Superclass. Person inherit BaseEntity.
 - Products and Role is entity that inherit from BaseEntity.
